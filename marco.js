@@ -3,4 +3,4 @@ var r1 = require('readline').createInterface({
 	output: process.stdout
 	});
 
-r1.question('say what? ', function (inp) {console.log(inp); r1.close();});
+r1.question('say what? ', function (inp) {console.log(inp+" is awesome!"); r1.close();});
